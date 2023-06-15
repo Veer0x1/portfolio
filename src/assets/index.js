@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import logo2 from "./logo2.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -37,6 +38,7 @@ import prastuti from "./prastuti.png";
 import sharehub from "./sharehub.png";
 
 export {
+  logo2,
   fmc,
   campusDirector,
   prastuti,
