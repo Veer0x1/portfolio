@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  firebase,
+  nextjs,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +48,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Web 3 Developer",
     icon: mobile,
   },
   {
@@ -81,8 +83,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Firebase",
+    icon: firebase,
   },
   {
     name: "Tailwind CSS",
@@ -97,8 +99,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "git",
