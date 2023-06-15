@@ -25,6 +25,10 @@ import {
   threejs,
   firebase,
   nextjs,
+  campusDirector,
+  fmc,
+  prastuti,
+  sharehub,
 } from "../assets";
 
 export const navLinks = [
@@ -200,51 +204,51 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ShareHub",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to invest in crypto, stocks, and mutual funds, providing a convenient and efficient solution for investment needs.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "nextjs",
+        color: "black-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: sharehub,
+    source_code_link: "https://github.com/Veer0x1/sharehub",
   },
   {
-    name: "Job IT",
+    name: "Campus Director Portal",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables students of various institute to become campus director of E-Summit fest, which is annual fest of E-Cell IIT BHU.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "firebase",
+        color: "yellow-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: campusDirector,
+    source_code_link: "https://github.com/E-Cell-IIT-BHU/CD_E-Summit23",
   },
   {
-    name: "Trip Guide",
+    name: "FMC Weekend",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The official website for the FMC Weekend Fest, the ultimate celebration of music, art, and culture! Join us by registering for a wide array of exhilarating events.",
     tags: [
       {
         name: "nextjs",
@@ -259,8 +263,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: fmc,
+    source_code_link: "https://github.com/FMC-Weekend/fmcw-frontend",
   },
 ];
 

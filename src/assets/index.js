@@ -31,8 +31,16 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import fmc from "./fmc.png";
+import campusDirector from "./campus-director.png"; 
+import prastuti from "./prastuti.png";
+import sharehub from "./sharehub.png";
 
 export {
+  fmc,
+  campusDirector,
+  prastuti,
+  sharehub,
   firebase,
   nextjs,
   logo,
